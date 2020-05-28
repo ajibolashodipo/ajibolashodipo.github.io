@@ -2,6 +2,9 @@
   --primary-bg-color: #fff;
   --secondary-bg-color: #1d1f1d;
   --tertiary-bg-color: #e4ede6;
+  /* --primary-bg-color: #278ea5;
+  --secondary-bg-color: #1f4287;
+  --tertiary-bg-color: #1f4287; */
 }
 
 * {
@@ -45,29 +48,51 @@ body {
   color: black;
 }
 
+/* other styles */
+
 .navbar-ish {
   flex-basis: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .social-media {
   flex-basis: 85vh;
-  background-color: blueviolet;
+  background-color: grey;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: flex-end;
+  writing-mode: vertical-rl;
+  align-items: center;
+}
+.social-media p {
+  padding: 2%;
 }
 
 .primary-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 400px;
   padding: 1%;
   line-height: 2rem;
   height: 300px;
   /* justify-self: center; */
-  margin-left: 10rem;
+  margin-left: 5rem;
+  font-size: 1.5rem;
 }
 
 .main-image {
   height: 550px;
-  width: 650px;
-  margin-left: -500px;
+  width: 800px;
+  margin-left: -400px;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.secondary .nav-logo {
+  margin: 5%;
+  padding: 1%;
+}
+
+.secondary-bottom {
+  margin: 5%;
+  padding: 1% 1% 2% 1%;
 }
