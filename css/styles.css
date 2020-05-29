@@ -86,8 +86,10 @@ button {
   align-items: center;
   position: absolute;
   top: 0;
-  left: 25%;
+  /* left: 0%; */
+  right: 0;
   z-index: 2;
+  transition: transform 3s;
 }
 
 nav a {

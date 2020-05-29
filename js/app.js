@@ -1,10 +1,17 @@
 const hamburger = document.querySelector(".navbar-ish")
 const navigation = document.querySelector(".my-nav-stopgap")
 const myNav = document.querySelector(".my-nav")
+const square = document.getElementById("square1")
 
 hamburger.addEventListener("click", () => {
   navigation.classList.toggle("my-nav")
-  myNav.style.transition = "all 3s ease-in"
-})
+  // square.style.left = "25%"
+  // square1.style.transform = "translateX(25vw)"
+  if (navigation.classList.contains("my-nav")) {
+    $("#square1").animate({ right: "7.5vw" })
+  }
 
-// alert("sdfgsdfgsd")
+  //animate hamburger. turn it to X on click.
+  //animate exit of navbar
+  //animate entry of navlinks
+})
