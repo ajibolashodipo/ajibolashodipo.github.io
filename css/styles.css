@@ -58,7 +58,7 @@ button {
   width: 40%;
   outline: none;
   border: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: bold;
   border-radius: 5px;
 }
@@ -85,7 +85,7 @@ button {
   align-items: center;
 }
 .social-media a {
-  margin: 20% 0;
+  margin: 10% 0;
   padding: 2%;
 }
 
@@ -96,7 +96,7 @@ button {
 .short-introduction {
   padding: 3%;
   /* border: 1px solid red; */
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 2rem;
 }
 .short-introduction p {
@@ -113,11 +113,11 @@ button {
 }
 
 .main-image {
-  height: 550px;
-  width: 800px;
-  margin-left: -450px;
+  height: 450px;
+  width: 680px;
+  margin-left: -350px;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  animation: spinSlow 45s ease-in-out infinite normal forwards;
+  animation: spinSlow 60s ease-in-out infinite normal forwards;
   filter: grayscale(80%);
 }
 
@@ -126,11 +126,11 @@ button {
     transform: rotate(0deg);
   }
   25% {
-    transform: rotate(-10deg);
+    transform: rotate(-5deg);
   }
 
   75% {
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   }
   100% {
     transform: rotate(0deg);
@@ -149,6 +149,7 @@ button {
 
 .secondary-bottom p {
   letter-spacing: 0.1rem;
+  font-size: 0.8rem;
 }
 
 .phone-num {
