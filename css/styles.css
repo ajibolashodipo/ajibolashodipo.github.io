@@ -14,6 +14,10 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style-type: none;
+}
+
 html,
 body {
   height: 100%;
@@ -63,10 +67,42 @@ button {
   border-radius: 5px;
 }
 
+/* essential for the hamburger to work. pls don't remove */
+.my-nav-stopgap {
+  display: none;
+}
+
+.my-nav {
+  width: 67.5vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    90deg,
+    var(--secondary-bg-color) 50%,
+    var(--primary-bg-color) 50%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  /* transition: background-image 3s ease-in-out; */
+  z-index: 2;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /* other styles */
 
 .my-hamburger {
   color: var(--secondary-bg-color);
+  cursor: pointer;
+  z-index: 10;
 }
 
 .navbar-ish {
