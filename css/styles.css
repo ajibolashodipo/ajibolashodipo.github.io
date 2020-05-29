@@ -21,7 +21,7 @@ body {
 
 .all-content {
   display: flex;
-  height: 100vh;
+  height: 100%;
 }
 
 .primary {
@@ -51,40 +51,73 @@ body {
 /* other styles */
 
 .navbar-ish {
-  flex-basis: 15vh;
+  flex-basis: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .social-media {
-  flex-basis: 85vh;
+  flex-basis: 85%;
   background-color: grey;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
-  writing-mode: vertical-rl;
+  /* writing-mode: vertical-rl; */
   align-items: center;
 }
-.social-media p {
+.social-media a {
+  margin: 5% 0;
   padding: 2%;
+}
+.social-media .fab {
+  background-color: white;
 }
 
 .primary-container {
+  margin-left: 3.5rem;
+  width: 450px;
+}
+.short-introduction {
+  padding: 3%;
   /* border: 1px solid red; */
-  width: 400px;
-  padding: 1%;
-  line-height: 2rem;
-  height: 300px;
-  /* justify-self: center; */
-  margin-left: 5rem;
   font-size: 1.5rem;
+  line-height: 2rem;
+}
+.short-introduction p {
+  margin-top: 2%;
+}
+.typewriter-stuff {
+  font-size: 2.2rem;
+  margin-bottom: 35%;
+}
+
+.typewriter-stuff .two-things {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .main-image {
   height: 550px;
   width: 800px;
-  margin-left: -400px;
+  margin-left: -450px;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  animation: spinSlow 25s ease-in-out infinite normal forwards;
+}
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .secondary .nav-logo {
@@ -95,4 +128,8 @@ body {
 .secondary-bottom {
   margin: 5%;
   padding: 1% 1% 2% 1%;
+}
+
+.phone-num {
+  margin-bottom: 1%;
 }
