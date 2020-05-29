@@ -1,10 +1,11 @@
 :root {
-  --primary-bg-color: #fff;
+  /* --primary-bg-color: #fff;
   --secondary-bg-color: #1d1f1d;
-  --tertiary-bg-color: #e4ede6;
-  /* --primary-bg-color: #278ea5;
-  --secondary-bg-color: #1f4287;
-  --tertiary-bg-color: #1f4287; */
+  --tertiary-bg-color: #e4ede6; */
+
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #278ea5;
+  --tertiary-bg-color: #1f4287;
 }
 
 * {
@@ -41,14 +42,32 @@ body {
 }
 .tertiary {
   width: 7.5%;
-  background-color: var(--tertiary-bg-color);
+  background-color: var(--primary-bg-color);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   color: black;
 }
 
+button {
+  padding: 2.5% 3%;
+  cursor: pointer;
+  color: white;
+  background-color: var(--secondary-bg-color);
+  margin-top: 5%;
+  width: 40%;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
 /* other styles */
+
+.my-hamburger {
+  color: var(--secondary-bg-color);
+}
 
 .navbar-ish {
   flex-basis: 15%;
@@ -58,7 +77,7 @@ body {
 }
 .social-media {
   flex-basis: 85%;
-  background-color: grey;
+  background-color: var(--secondary-bg-color);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -98,7 +117,8 @@ body {
   width: 800px;
   margin-left: -450px;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-  animation: spinSlow 25s ease-in-out infinite normal forwards;
+  animation: spinSlow 45s ease-in-out infinite normal forwards;
+  filter: grayscale(80%);
 }
 
 @keyframes spinSlow {
@@ -125,6 +145,10 @@ body {
 .secondary-bottom {
   margin: 5%;
   padding: 1% 1% 2% 1%;
+}
+
+.secondary-bottom p {
+  letter-spacing: 0.1rem;
 }
 
 .phone-num {
