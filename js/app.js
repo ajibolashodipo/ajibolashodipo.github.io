@@ -4,6 +4,7 @@ const myNav = document.querySelector(".my-nav")
 const square = document.getElementById("square1")
 
 hamburger.addEventListener("click", () => {
+  console.log("ajibola")
   navigation.classList.toggle("my-nav")
   // square.style.left = "25%"
   // square1.style.transform = "translateX(25vw)"
