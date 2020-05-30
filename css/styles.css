@@ -283,7 +283,7 @@ nav a {
 .about-interests {
   background-color: var(--tertiary-bg-color);
   color: black;
-  height: 100vh;
+  height: 100%;
 }
 .about-interests h1 {
   margin-bottom: 2.5%;
