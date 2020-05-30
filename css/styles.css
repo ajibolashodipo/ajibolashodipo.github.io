@@ -35,6 +35,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: fixed; */
 }
 .secondary {
   width: 25%;
@@ -51,6 +52,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   color: black;
+  /* position: fixed; */
 }
 
 button {
@@ -89,7 +91,7 @@ button {
   /* left: 0%; */
   right: 0;
   z-index: 2;
-  transition: transform 3s;
+  transition: 1s;
 }
 
 nav a {
@@ -191,4 +193,64 @@ nav a {
 
 .phone-num {
   margin-bottom: 1%;
+}
+
+/* about page */
+.primary-about {
+  width: 67.5%;
+  background-color: var(--primary-bg-color);
+}
+.about-text-container {
+  margin: 5% auto;
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 75vh;
+  padding: 3%;
+}
+.typewriter-about-stuff {
+  width: 100%;
+  font-size: 2.2rem;
+}
+
+.about-me-main {
+  margin-top: 5%;
+}
+.about-me-main h1 {
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  color: var(--secondary-bg-color);
+}
+.about-me-main p {
+  margin-bottom: 2%;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.core-skills {
+  background-color: var(--secondary-bg-color);
+  color: white;
+}
+.core-skills h1 {
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  color: var(--primary-bg-color);
+}
+.core-skills-text {
+  margin: 5% auto;
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 75vh;
+  padding: 3%;
+}
+
+.skills-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-container p {
+  font-size: 1.2rem;
+  margin-bottom: 15%;
 }
