@@ -30,6 +30,8 @@ body {
   height: 100%;
 }
 
+/* hey. pls remember that in order to get the first and third columns to stay fixed on the screen, i had to tweak the positioning. for these, i used position:fixed. for the center column, i used position relative since this one allows the content to move wrt itself. i simply adjusted the left position to allow for the navbar column */
+
 .primary {
   width: 67.5%;
   background-color: var(--primary-bg-color);
@@ -39,9 +41,6 @@ body {
   position: relative;
   left: 25vw;
   top: 0;
-  /* overflow: auto; */
-  /* position: fixed; */
-  /* position: sticky; */
 }
 .secondary {
   width: 25%;
@@ -75,8 +74,8 @@ body {
 button {
   padding: 2.5% 3%;
   cursor: pointer;
-  color: white;
-  background-color: var(--secondary-bg-color);
+  color: var(--quartenary-bg-color);
+  background-color: var(--tertiary-bg-color);
   margin-top: 5%;
   width: 40%;
   outline: none;
@@ -120,7 +119,7 @@ nav a {
 /* other styles */
 
 .my-hamburger {
-  color: var(--secondary-bg-color);
+  color: var(--tertiary-bg-color);
   cursor: pointer;
   z-index: 10;
 }
