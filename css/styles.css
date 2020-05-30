@@ -36,6 +36,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  left: 25vw;
+  top: 0;
   /* overflow: auto; */
   /* position: fixed; */
   /* position: sticky; */
@@ -48,9 +51,13 @@ body {
   justify-content: space-between;
   color: white;
   z-index: -1;
-  /* position: absolute;
+
+  position: fixed;
   top: 0;
-  left: 0; */
+  left: 0;
+  height: 100vh;
+  width: 25%;
+  /* z-index: 100; */
 }
 .tertiary {
   width: 7.5%;
@@ -58,11 +65,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  color: black;
-  /* position: fixed; */
-  /* position:sticky */
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 0;
+  height: 100vh;
+  width: 7.5%;
 }
 
 button {
@@ -210,6 +217,9 @@ nav a {
 .primary-about {
   width: 67.5%;
   background-color: var(--primary-bg-color);
+  position: relative;
+  left: 25%;
+  top: 0;
 }
 
 .stopg {
@@ -336,7 +346,7 @@ nav a {
 }
 
 .my-experiences p {
-  margin-bottom: 2.5%;
+  margin-bottom: 4.5%;
   text-align: justify;
   line-height: 2rem;
 }
