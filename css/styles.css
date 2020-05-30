@@ -11,7 +11,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 li {
@@ -76,7 +76,7 @@ button {
 
 .my-nav {
   width: 67.5vw;
-  height: 100vh;
+  /* height: 100vh; */
   background-image: linear-gradient(
     90deg,
     var(--secondary-bg-color) 50%,
@@ -200,12 +200,17 @@ nav a {
   width: 67.5%;
   background-color: var(--primary-bg-color);
 }
-.about-text-container {
-  margin: 5% auto;
+
+.stopg {
   /* border: 1px solid red; */
+  padding: 2%;
+}
+
+.about-text-container {
+  margin: 0 auto;
   width: 80%;
-  height: 75vh;
-  padding: 3%;
+  padding: 5%;
+  height: 100vh;
 }
 .typewriter-about-stuff {
   width: 100%;
@@ -230,6 +235,7 @@ nav a {
 .core-skills {
   background-color: var(--secondary-bg-color);
   color: white;
+  height: 100vh;
 }
 .core-skills h1 {
   margin-bottom: 2.5%;
@@ -237,11 +243,10 @@ nav a {
   color: var(--primary-bg-color);
 }
 .core-skills-text {
-  margin: 5% auto;
+  margin: 0px auto;
   /* border: 1px solid red; */
   width: 80%;
-  height: 75vh;
-  padding: 3%;
+  padding: 7.5% 5%;
 }
 
 .skills-container {
@@ -253,4 +258,43 @@ nav a {
 .skills-container p {
   font-size: 1.2rem;
   margin-bottom: 15%;
+}
+
+.about-interests {
+  background-color: var(--tertiary-bg-color);
+  color: black;
+  height: 100vh;
+}
+.about-interests h1 {
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  color: var(--secondary-bg-color);
+}
+.about-interests-container {
+  margin: 0% auto;
+  /* border: 1px solid red; */
+  width: 80%;
+
+  padding: 7.5% 5%;
+}
+.interest-grid {
+  margin-top: 5%;
+  display: grid;
+  /* border: 1px solid red; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* justify-items: stretch;
+  align-items: stretch; */
+  padding: 2.5%;
+  gap: 10px;
+}
+.interest-grid p {
+  background-color: var(--secondary-bg-color);
+
+  padding: 15%;
+  height: 100px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
 }
