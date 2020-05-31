@@ -459,3 +459,51 @@ nav a {
   grid-column: 5/8;
   grid-row: 8/11;
 }
+
+/* contact me */
+
+.primary-contact {
+  width: 67.5%;
+  background-color: var(--primary-bg-color);
+  position: relative;
+  left: 25%;
+  top: 0;
+}
+
+.primary-contact-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 7.5%;
+  /* height: 100vh; */
+}
+.typewriter-contact-stuff {
+  width: 100%;
+  font-size: 2.2rem;
+}
+
+.my-contact {
+  margin-top: 5%;
+}
+.my-contact h1 {
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  color: var(--secondary-bg-color);
+}
+
+/* contact grid */
+.my-contact-grid {
+  margin-top: 7.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 150px;
+  gap: 10px;
+}
+
+.my-contact-grid-el {
+  background-color: var(--tertiary-bg-color);
+  color: var(--quartenary-bg-color);
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
