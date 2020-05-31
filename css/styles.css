@@ -354,6 +354,39 @@ nav a {
   font-size: 1.4rem;
 }
 
+/* awardssssssss */
+.about-awards {
+  background-color: var(--secondary-bg-color);
+  color: white;
+  /* height: 100vh; */
+  /* color: var(--quartenary-bg-color); */
+}
+.about-awards h1 {
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  color: var(--primary-bg-color);
+}
+.awards-container {
+  margin: 0% auto;
+  /* border: 1px solid red; */
+  width: 80%;
+  padding: 7.5% 5%;
+}
+
+.my-awards {
+  margin-top: 5%;
+}
+
+.my-awards p {
+  margin-bottom: 4.5%;
+  text-align: justify;
+  line-height: 2rem;
+}
+.my-awards h5 {
+  margin-bottom: 1%;
+  font-size: 1.4rem;
+}
+
 /* portfolio page */
 
 .primary-portfolio {
