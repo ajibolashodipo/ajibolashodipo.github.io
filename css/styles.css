@@ -23,6 +23,7 @@ html,
 body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
+  max-width: 1500px;
 }
 
 .all-content {
@@ -32,6 +33,7 @@ body {
 
 /* hey. pls remember that in order to get the first and third columns to stay fixed on the screen, i had to tweak the positioning. for these, i used position:fixed. for the center column, i used position relative since this one allows the content to move wrt itself. i simply adjusted the left position to allow for the navbar column */
 
+/* for subsequent html pages, pls rename the primary class cos this one contains justify content and align items; used to style the landing page */
 .primary {
   width: 67.5%;
   background-color: var(--primary-bg-color);
@@ -221,15 +223,10 @@ nav a {
   top: 0;
 }
 
-.stopg {
-  /* border: 1px solid red; */
-  padding: 2%;
-}
-
 .about-text-container {
   margin: 0 auto;
   width: 80%;
-  padding: 5%;
+  padding: 7.5%;
   height: 100vh;
 }
 .typewriter-about-stuff {
@@ -355,4 +352,34 @@ nav a {
 .my-experiences h5 {
   margin-bottom: 1%;
   font-size: 1.4rem;
+}
+
+/* portfolio page */
+
+.primary-portfolio {
+  width: 67.5%;
+  background-color: var(--primary-bg-color);
+  position: relative;
+  left: 25%;
+  top: 0;
+}
+
+.primary-portfolio-container {
+  margin: 0 auto;
+  width: 80%;
+  padding: 7.5%;
+  height: 100vh;
+}
+.typewriter-portfolio-stuff {
+  width: 100%;
+  font-size: 2.2rem;
+}
+
+.my-portfolio {
+  margin-top: 5%;
+}
+.my-portfolio h1 {
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  color: var(--secondary-bg-color);
 }
