@@ -399,7 +399,7 @@ nav a {
 
 .primary-portfolio-container {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   padding: 7.5%;
   /* height: 100vh; */
 }
@@ -415,4 +415,47 @@ nav a {
   margin-bottom: 2.5%;
   font-size: 4rem;
   color: var(--secondary-bg-color);
+}
+
+/* portfolio grid */
+.my-portfolio-main {
+  margin-top: 7.5%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, minmax(80px, auto));
+  gap: 10px;
+}
+
+.grid-portfolio-el {
+  padding: 5%;
+  background-color: var(--tertiary-bg-color);
+}
+
+.grid-portfolio-el-one {
+  grid-column: 1/4;
+  grid-row: 1/8;
+}
+.grid-portfolio-el-two {
+  grid-column: 4/7;
+  grid-row: 1/4;
+}
+.grid-portfolio-el-three {
+  grid-column: 7/11;
+  grid-row: 1/4;
+}
+.grid-portfolio-el-four {
+  grid-column: 4/8;
+  grid-row: 4/8;
+}
+.grid-portfolio-el-five {
+  grid-column: 8/11;
+  grid-row: 4/11;
+}
+.grid-portfolio-el-six {
+  grid-column: 1/5;
+  grid-row: 8/11;
+}
+.grid-portfolio-el-seven {
+  grid-column: 5/8;
+  grid-row: 8/11;
 }
