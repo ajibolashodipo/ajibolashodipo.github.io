@@ -76,8 +76,8 @@ body {
 button {
   padding: 2.5% 3%;
   cursor: pointer;
-  color: var(--quartenary-bg-color);
-  background-color: var(--tertiary-bg-color);
+  color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
   margin-top: 5%;
   width: 40%;
   outline: none;
