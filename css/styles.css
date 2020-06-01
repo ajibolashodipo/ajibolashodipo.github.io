@@ -466,8 +466,20 @@ nav a {
 }
 
 .grid-portfolio-el {
-  padding: 5%;
+  /* padding: 3%; */
   background-color: var(--tertiary-bg-color);
+}
+.grid-portfolio-el img {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+  object-fit: cover;
+  object-position: 60% 60%;
+  /* transform: scale(1); */
+}
+.grid-portfolio-el img:hover {
+  filter: grayscale(0);
+  transform: scale(1.02);
 }
 
 .grid-portfolio-el-one {
