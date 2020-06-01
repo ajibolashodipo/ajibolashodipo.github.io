@@ -87,6 +87,11 @@ body {
   border-radius: 5px;
   text-decoration: none;
   display: block;
+  transition: all 300ms ease-in-out;
+}
+
+.link-button:hover {
+  background-color: var(--tertiary-bg-color);
 }
 
 /* essential for the hamburger to work. pls don't remove */
@@ -146,6 +151,11 @@ nav a {
 .social-media a {
   margin: 10% 0;
   padding: 2%;
+  transition: all 500ms ease-in-out;
+}
+
+.social-media a:hover {
+  transform: scale(1.5) rotate(180deg);
 }
 
 .primary-container {
@@ -219,12 +229,16 @@ nav a {
   height: 80px;
 }
 
-.nav-logo a,
 .nav-logo img {
   /* border: 1px solid green; */
-  z-index: 20000;
+  /* z-index: 20000; */
+  transform: scale(1);
+  transition: all 200ms ease-in;
 }
 
+.nav-logo img:hover {
+  transform: translateY(-5px) scale(1.1);
+}
 .secondary-bottom {
   margin: 5%;
   padding: 1% 1% 2% 1%;
@@ -233,6 +247,10 @@ nav a {
 .secondary-bottom p {
   letter-spacing: 0.1rem;
   font-size: 0.8rem;
+  transition: all 200ms ease-in;
+}
+.secondary-bottom p:hover {
+  transform: scale(1.05);
 }
 
 .phone-num {
