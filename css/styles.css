@@ -45,7 +45,7 @@ body {
   top: 0;
 }
 .secondary {
-  width: 25vw;
+  width: 25%;
   background-color: var(--secondary-bg-color);
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@ body {
   height: 100vh;
 }
 .tertiary {
-  width: 7.5vw;
+  width: 7.5%;
   background-color: var(--primary-bg-color);
   display: flex;
   flex-direction: column;
@@ -252,7 +252,7 @@ nav a {
   margin: 0 auto;
   width: 80%;
   padding: 7.5%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .typewriter-about-stuff {
   width: 100%;
