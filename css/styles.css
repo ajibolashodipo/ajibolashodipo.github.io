@@ -174,9 +174,20 @@ nav a {
 }
 
 .main-image {
-  height: 450px;
+  /* Note : 100px= 7.3206vw for a 1366 x 768 screen*/
+  /* absolute height/width in pixels */
+  /* height: 450px;
   width: 680px;
-  margin-left: -350px;
+  margin-left: -350px; */
+
+  /* relative height/width in vw */
+  /* height: 32.94vw;
+  width: 49.78vw;
+  margin-left: -25.62vw; */
+
+  height: 32.94vw;
+  width: 45vw;
+  margin-left: -22.5vw;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   animation: spinSlow 40s ease-in-out infinite normal forwards;
   filter: grayscale(80%);
@@ -472,7 +483,7 @@ nav a {
 .grid-portfolio-el img {
   height: 100%;
   width: 100%;
-  filter: grayscale(100%);
+  filter: grayscale(90%);
   object-fit: cover;
   object-position: 60% 60%;
   /* transform: scale(1); */
@@ -558,5 +569,5 @@ nav a {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  /* padding: 15%; */
+  padding: 5%;
 }
