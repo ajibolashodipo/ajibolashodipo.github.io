@@ -45,7 +45,7 @@ body {
   top: 0;
 }
 .secondary {
-  width: 25%;
+  width: 25vw;
   background-color: var(--secondary-bg-color);
   display: flex;
   flex-direction: column;
@@ -55,7 +55,6 @@ body {
   top: 0;
   left: 0;
   height: 100vh;
-  width: 25%;
 }
 .tertiary {
   width: 7.5vw;
@@ -67,7 +66,6 @@ body {
   top: 0;
   right: 0;
   height: 100vh;
-  /* width: 7.5%; */
 }
 .intext-link {
   color: var(--secondary-bg-color);
@@ -131,13 +129,13 @@ nav a {
 }
 
 .navbar-ish {
-  flex-basis: 15%;
+  flex-basis: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .social-media {
-  flex-basis: 85%;
+  flex-basis: 85vh;
   background-color: var(--secondary-bg-color);
   display: flex;
   flex-direction: column;
@@ -279,7 +277,6 @@ nav a {
 .core-skills {
   background-color: var(--secondary-bg-color);
   color: white;
-  height: 100vh;
 }
 .core-skills h1 {
   margin-bottom: 2.5%;
@@ -307,7 +304,7 @@ nav a {
 .about-interests {
   background-color: var(--tertiary-bg-color);
   color: black;
-  height: 100%;
+  /* height: 100%; */
 }
 .about-interests h1 {
   margin-bottom: 2.5%;
@@ -408,8 +405,6 @@ nav a {
 .about-awards {
   background-color: var(--secondary-bg-color);
   color: white;
-  /* height: 100vh; */
-  /* color: var(--quartenary-bg-color); */
 }
 .about-awards h1 {
   margin-bottom: 2.5%;
@@ -418,7 +413,6 @@ nav a {
 }
 .awards-container {
   margin: 0% auto;
-  /* border: 1px solid red; */
   width: 80%;
   padding: 7.5% 5%;
 }
@@ -451,7 +445,6 @@ nav a {
   margin: 0 auto;
   width: 90%;
   padding: 7.5%;
-  /* height: 100vh; */
 }
 .typewriter-portfolio-stuff {
   width: 100%;
