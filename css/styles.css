@@ -4,6 +4,7 @@
   --tertiary-bg-color: #e4ede6; */
 
   --primary-bg-color: #fff;
+  --primary-bg-color: #e3e8e5;
   --secondary-bg-color: #278ea5;
   --tertiary-bg-color: #1f4287;
   --quartenary-bg-color: #c7c9c9;
@@ -19,13 +20,108 @@ li {
   list-style-type: none;
 }
 
-html,
+/* html,
+body {
+  height: 100%;
+} */
+
+html {
+  height: 100%;
+}
+
 body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
   max-width: 1500px;
+  background-color: var(--primary-bg-color);
 }
 
+/* loader animation */
+/* body,
+html {
+  height: 100%;
+  text-align: center;
+} */
+
+/* body {
+  background-color: #242f3f;
+} */
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--tertiary-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #fff;
+  /* top: 50%; */
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
+
+/* end of loader animation */
 .all-content {
   display: flex;
   height: 100%;
@@ -270,7 +366,6 @@ nav a {
   margin: 0 auto;
   width: 80%;
   padding: 7.5%;
-  /* height: 100vh; */
 }
 .typewriter-about-stuff {
   width: 100%;
@@ -360,6 +455,11 @@ nav a {
   display: grid;
   align-items: center;
   justify-content: center;
+  transition: all 500ms ease-in-out;
+}
+.interest-grid-el:hover {
+  background-color: var(--tertiary-bg-color);
+  transform: scale(1.02);
 }
 
 .interest-grid-el-one {
@@ -581,4 +681,13 @@ nav a {
   align-items: center;
   justify-content: space-evenly;
   padding: 5%;
+  transition: all 500ms ease-in-out;
+}
+.my-contact-grid-el:hover {
+  transform: scale(1.02);
+  background-color: var(--secondary-bg-color);
+}
+
+.email-mailto-link {
+  color: var(--quartenary-bg-color);
 }
