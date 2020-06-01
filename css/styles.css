@@ -72,8 +72,13 @@ body {
   height: 100vh;
   /* width: 7.5%; */
 }
+.intext-link {
+  color: var(--secondary-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+}
 
-button {
+.link-button {
   padding: 2.5% 3%;
   cursor: pointer;
   color: var(--primary-bg-color);
@@ -85,6 +90,8 @@ button {
   font-size: 1.1rem;
   font-weight: bold;
   border-radius: 5px;
+  text-decoration: none;
+  display: block;
 }
 
 /* essential for the hamburger to work. pls don't remove */
@@ -196,8 +203,20 @@ nav a {
 }
 
 .secondary .nav-logo {
-  margin: 5%;
+  margin: 1%;
   padding: 1%;
+}
+
+.nav-logo img,
+.nav-logo a {
+  width: 100px;
+  height: 80px;
+}
+
+.nav-logo a,
+.nav-logo img {
+  /* border: 1px solid green; */
+  z-index: 20000;
 }
 
 .secondary-bottom {
@@ -495,7 +514,7 @@ nav a {
   margin-top: 7.5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 150px;
+  grid-auto-rows: minmax(200px, auto);
   gap: 10px;
 }
 
@@ -503,7 +522,9 @@ nav a {
   background-color: var(--tertiary-bg-color);
   color: var(--quartenary-bg-color);
   border-radius: 10px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
+  justify-content: space-evenly;
+  /* padding: 15%; */
 }
