@@ -600,6 +600,7 @@ nav a {
   transition: all 300ms ease-in-out;
 }
 
+/* targets the project title div. preceding class name helps with readablility and specificity */
 .grid-portfolio-el .project-title-div {
   z-index: 1;
   position: absolute;
@@ -612,6 +613,7 @@ nav a {
   font-weight: bold;
 }
 
+/* transitions the project titles from scale 0 to scale 1 when the grid-portfolio-el div is hovered */
 .grid-portfolio-el:hover .project-title-div {
   transform: translate(-50%, -50%) scale(1);
 }
@@ -622,9 +624,9 @@ nav a {
   filter: grayscale(60%);
   object-fit: cover;
   object-position: 60% 60%;
-  /* transform: scale(1); */
 }
-.grid-portfolio-el img:hover {
+/* transitions the project image to total greyscale and scales it up when the grid-portfolio-el div is hovered */
+.grid-portfolio-el:hover img {
   filter: grayscale(100%);
   transform: scale(1.01);
   opacity: 0.2;
