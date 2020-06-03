@@ -5,7 +5,7 @@ const myNav = document.querySelector(".my-nav")
 
 // loading animation
 $(window).on("load", function () {
-  $(".loader-wrapper").delay(1200).fadeOut(500)
+  $(".loader-wrapper").delay(800).fadeOut(500)
 })
 
 hamburger.addEventListener("click", () => {
