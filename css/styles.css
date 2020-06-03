@@ -148,6 +148,11 @@ html {
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
   transition: all 0.5s ease-in-out;
 }
+
+.menu-btn:hover .menu-btn__burger {
+  transform: scale(1.05);
+}
+
 .menu-btn__burger::before,
 .menu-btn__burger::after {
   content: "";
@@ -162,6 +167,7 @@ html {
 .menu-btn__burger::before {
   transform: translateY(-10px);
 }
+
 .menu-btn__burger::after {
   transform: translateY(10px);
 }
