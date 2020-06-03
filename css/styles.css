@@ -247,11 +247,6 @@ html {
   background-color: var(--tertiary-bg-color);
 }
 
-/* essential for the hamburger to work. pls don't remove */
-/* .my-nav-stopgap {
-  display: none;
-} */
-
 .my-nav-stopgap {
   width: 67.5vw;
   height: 100vh;
@@ -268,7 +263,7 @@ html {
   top: 0;
   /* left: 0%; */
   right: 7.5vw;
-  z-index: 5;
+  /* z-index: 5; */
   transition: all 0.5s;
   transform: scale(0);
 }
@@ -282,6 +277,13 @@ nav a {
   color: black;
   text-decoration: none;
   font-weight: bold;
+  transform: scale(1);
+  /* using display block transitions dont work with inline elements */
+  display: inline-block;
+  transition: all 0.5s;
+}
+nav a:hover {
+  transform: scale(1.5);
 }
 
 /* other styles */
