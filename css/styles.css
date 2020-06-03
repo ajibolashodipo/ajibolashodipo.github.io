@@ -248,11 +248,11 @@ html {
 }
 
 /* essential for the hamburger to work. pls don't remove */
-.my-nav-stopgap {
+/* .my-nav-stopgap {
   display: none;
-}
+} */
 
-.my-nav {
+.my-nav-stopgap {
   width: 67.5vw;
   height: 100vh;
   background-image: linear-gradient(
@@ -269,7 +269,12 @@ html {
   /* left: 0%; */
   right: 7.5vw;
   z-index: 5;
-  transition: 1s;
+  transition: all 1s;
+  transform: scale(0);
+}
+
+/* ensure no space between between stopgap and the first dot */
+.my-nav-stopgap.animate {
   transform: scale(1);
 }
 
