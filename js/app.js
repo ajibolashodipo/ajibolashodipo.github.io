@@ -9,5 +9,6 @@ $(window).on("load", function () {
 })
 
 hamburger.addEventListener("click", () => {
-  navigation.classList.toggle("my-nav")
+  console.log("ajibola")
+  navigation.classList.toggle("animate")
 })
