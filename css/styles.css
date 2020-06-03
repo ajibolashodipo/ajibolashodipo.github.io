@@ -270,6 +270,7 @@ html {
   right: 7.5vw;
   z-index: 5;
   transition: 1s;
+  transform: scale(1);
 }
 
 nav a {
