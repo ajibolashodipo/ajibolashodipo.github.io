@@ -279,6 +279,9 @@ html {
   transition: all 0.5s;
   transform: scale(0) rotate(-180deg);
 }
+.my-nav-stopgap li {
+  list-style-type: none;
+}
 
 /* ensure no space between between stopgap and the first dot */
 .my-nav-stopgap.animate {
