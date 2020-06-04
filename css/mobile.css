@@ -322,8 +322,218 @@
   margin-bottom: 5%;
   text-align: justify;
   line-height: 2rem;
+  font-size: 0.9rem;
 }
 .my-awards h5 {
   margin-bottom: 1%;
   font-size: 1.2rem;
+}
+
+/* portfolio page */
+
+.primary-portfolio {
+  width: 100vw;
+  background-color: var(--primary-bg-color);
+  /* display: block; */
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.primary-portfolio-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 7.5%;
+}
+.typewriter-portfolio-stuff {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.my-portfolio {
+  margin-top: 5%;
+}
+.my-portfolio h1 {
+  margin-bottom: 2%;
+  font-size: 2.5rem;
+  color: var(--secondary-bg-color);
+}
+
+/* portfolio grid */
+.my-portfolio-main {
+  margin-top: 7.5%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(12, minmax(80px, auto));
+  gap: 10px;
+}
+
+/* common class name for all grid elements */
+.grid-portfolio-el {
+  position: relative;
+  background-color: var(--tertiary-bg-color);
+}
+
+/* ensures that transition affects all the div elements */
+.grid-portfolio-el * {
+  transition: all 300ms ease-in-out;
+}
+
+/* targets the project title div. preceding class name helps with readablility and specificity */
+.grid-portfolio-el .project-title-div {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+}
+
+/* transitions the project titles from scale 0 to scale 1 when the grid-portfolio-el div is hovered */
+.grid-portfolio-el:hover .project-title-div {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.grid-portfolio-el img {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(60%);
+  object-fit: cover;
+  object-position: 60% 60%;
+}
+/* transitions the project image to total greyscale and scales it up when the grid-portfolio-el div is hovered */
+.grid-portfolio-el:hover img {
+  filter: grayscale(100%);
+  transform: scale(1.01);
+  opacity: 0.2;
+}
+
+.grid-portfolio-el-one {
+  grid-column: 1/7;
+  grid-row: 1/4;
+}
+.grid-portfolio-el-two {
+  grid-column: 7/11;
+  grid-row: 1/4;
+}
+.grid-portfolio-el-three {
+  grid-column: 1/5;
+  grid-row: 4/7;
+}
+.grid-portfolio-el-four {
+  grid-column: 5/11;
+  grid-row: 4/7;
+}
+.grid-portfolio-el-five {
+  grid-column: 1/7;
+  grid-row: 7/10;
+}
+.grid-portfolio-el-six {
+  grid-column: 7/11;
+  grid-row: 7/10;
+}
+.grid-portfolio-el-seven {
+  grid-column: 1/11;
+  grid-row: 10/13;
+}
+
+/* contact me */
+
+.primary-contact {
+  width: 100vw;
+  background-color: var(--primary-bg-color);
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.primary-contact-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 7.5%;
+}
+.typewriter-contact-stuff {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.my-contact {
+  margin-top: 5%;
+}
+.my-contact h1 {
+  margin-bottom: 2%;
+  font-size: 2.5rem;
+  color: var(--secondary-bg-color);
+}
+
+/* contact grid */
+.my-contact-grid {
+  margin: 15% auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, minmax(200px, auto));
+  gap: 10px;
+  transform: scale(1);
+}
+
+.my-contact-grid-el {
+  background-color: var(--tertiary-bg-color);
+  color: var(--quartenary-bg-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5%;
+  transition: all 500ms ease-in-out;
+}
+
+.my-contact-grid-el-one {
+  grid-column: 1/6;
+  grid-row: 1/2;
+}
+.my-contact-grid-el-two {
+  grid-column: 6/11;
+  grid-row: 1/2;
+  word-break: break-all;
+}
+.my-contact-grid-el-three {
+  grid-column: 1/6;
+  grid-row: 2/3;
+}
+.my-contact-grid-el-four {
+  grid-column: 6/11;
+  grid-row: 2/3;
+}
+.my-contact-grid-el-one {
+  grid-column: 1/11;
+  grid-row: 1/2;
+}
+.my-contact-grid-el-two {
+  grid-column: 1/11;
+  grid-row: 3/4;
+  word-break: break-all;
+}
+.my-contact-grid-el-three {
+  grid-column: 1/6;
+  grid-row: 2/3;
+}
+.my-contact-grid-el-four {
+  grid-column: 6/11;
+  grid-row: 2/3;
+}
+
+.my-contact-grid-el:hover {
+  transform: scale(1.02);
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-bg-color);
+}
+
+.email-mailto-link {
+  color: var(--quartenary-bg-color);
 }

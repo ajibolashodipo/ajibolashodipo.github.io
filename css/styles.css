@@ -747,7 +747,7 @@ nav a:hover {
 .primary-contact-container {
   margin: 0 auto;
   width: 80%;
-  padding: 7.5%;
+  padding: 5%;
   /* height: 100vh; */
 }
 .typewriter-contact-stuff {
@@ -763,14 +763,19 @@ nav a:hover {
   font-size: 4rem;
   color: var(--secondary-bg-color);
 }
+.my-contact h4 {
+  margin-bottom: 5%;
+}
 
 /* contact grid */
+
 .my-contact-grid {
-  margin-top: 7.5%;
+  margin-top: 35%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, minmax(250px, auto));
   gap: 10px;
+  margin: auto;
 }
 
 .my-contact-grid-el {
@@ -779,11 +784,31 @@ nav a:hover {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: space-evenly;
   padding: 5%;
   transition: all 500ms ease-in-out;
 }
+
+.my-contact-grid-el-one {
+  grid-column: 1/6;
+  grid-row: 1/2;
+}
+.my-contact-grid-el-two {
+  grid-column: 6/11;
+  grid-row: 1/2;
+  word-break: break-all;
+}
+.my-contact-grid-el-three {
+  grid-column: 1/6;
+  grid-row: 2/3;
+}
+.my-contact-grid-el-four {
+  grid-column: 6/11;
+  grid-row: 2/3;
+}
+
 .my-contact-grid-el:hover {
   transform: scale(1.02);
   background-color: var(--secondary-bg-color);
