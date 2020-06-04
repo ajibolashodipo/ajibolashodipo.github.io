@@ -45,6 +45,7 @@
 /* change primary vw to 100% */
 .primary {
   width: 100vw;
+  height: 100vh;
   background-color: var(--primary-bg-color);
   display: block;
   /* justify-content: center;
@@ -67,8 +68,6 @@
 .mobile-html-container {
   display: block;
   width: 100%;
-
-  text-align: center;
 }
 
 .mobile-navbar {
@@ -82,10 +81,11 @@
 .mobile-home-elements {
   margin: 10% auto;
   padding: 5%;
+  text-align: center;
 }
 
 .typewriter-stuff {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 15%;
 }
 
@@ -136,4 +136,194 @@
   100% {
     transform: rotate(90deg) translateX(7px);
   }
+}
+
+.mobile-social-media {
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mobile-social-media .social-icons {
+  color: var(--secondary-bg-color);
+  font-size: 1.3rem;
+}
+
+/* about page------------------------- */
+.primary-about {
+  width: 100vw;
+  background-color: var(--primary-bg-color);
+  /* display: block; */
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.about-text-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 7.5%;
+}
+.typewriter-about-stuff {
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 10%;
+}
+
+.about-me-main {
+  margin-top: 5%;
+}
+.about-me-main h1 {
+  margin-bottom: 2.5%;
+  font-size: 2.5rem;
+  color: var(--secondary-bg-color);
+}
+.about-me-main p {
+  margin-bottom: 2%;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* expreience----------- */
+.about-experience {
+  background-color: var(--tertiary-bg-color);
+  color: var(--quartenary-bg-color);
+}
+.about-experience h1 {
+  margin-bottom: 2%;
+  font-size: 2.5rem;
+  color: var(--secondary-bg-color);
+}
+.experience-container {
+  margin: 0% auto;
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 7.5% 5%;
+}
+
+.my-experiences {
+  margin-top: 5%;
+  padding: 0 5%;
+}
+
+.my-experiences p {
+  margin-bottom: 4.5%;
+  text-align: justify;
+  line-height: 2rem;
+}
+.my-experiences h5 {
+  margin-bottom: 1%;
+  font-size: 1.2rem;
+}
+.about-experience h4 {
+  margin-bottom: 7.5%;
+  /* font-size: 1.2rem; */
+}
+
+/* core skilssssss */
+.core-skills {
+  background-color: var(--secondary-bg-color);
+  color: white;
+}
+.core-skills h1 {
+  margin-bottom: 2%;
+  font-size: 2.5rem;
+  color: var(--primary-bg-color);
+}
+.core-skills h4 {
+  margin-bottom: 15%;
+}
+.core-skills-text {
+  margin: 0px auto;
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 7.5% 5%;
+}
+
+.skills-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-container p {
+  font-size: 1rem;
+  margin-bottom: 15%;
+}
+
+/* interests */
+.about-interests {
+  background-color: var(--tertiary-bg-color);
+  /* color: black; */
+  /* height: 100%; */
+}
+.about-interests h1 {
+  margin-bottom: 2%;
+  font-size: 2.5rem;
+  color: var(--secondary-bg-color);
+}
+.about-interests h4 {
+  color: var(--quartenary-bg-color);
+  margin-bottom: 15%;
+}
+.about-interests-container {
+  margin: 0% auto;
+  /* border: 1px solid red; */
+  width: 100%;
+
+  padding: 7.5% 5%;
+}
+.interest-grid {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(6, 50px);
+  /* padding: 2.5%; */
+  gap: 10px;
+  height: 100%;
+}
+.interest-grid-el {
+  background-color: var(--secondary-bg-color);
+  padding: 2.5% 5%;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+
+  /* overkill yeah. but i was pushed */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transition: all 500ms ease-in-out;
+}
+
+/* awardssssssss */
+.about-awards {
+  background-color: var(--secondary-bg-color);
+  color: white;
+}
+.about-awards h1 {
+  margin-bottom: 2%;
+  font-size: 2.5rem;
+  color: var(--primary-bg-color);
+}
+.awards-container {
+  margin: 0% auto;
+  width: 100%;
+  padding: 7.5% 5%;
+}
+
+.my-awards {
+  margin-top: 10%;
+  padding: 0 5%;
+}
+
+.my-awards p {
+  margin-bottom: 5%;
+  text-align: justify;
+  line-height: 2rem;
+}
+.my-awards h5 {
+  margin-bottom: 1%;
+  font-size: 1.2rem;
 }
