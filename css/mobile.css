@@ -132,7 +132,7 @@
 
 .mobile-navbar {
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -148,7 +148,7 @@
 
 .typewriter-stuff {
   font-size: 1.5rem;
-  margin-bottom: 15%;
+  margin: 25% 0 15%;
 }
 
 .link-button {
@@ -228,7 +228,7 @@
 .typewriter-about-stuff {
   width: 100%;
   font-size: 1.5rem;
-  margin: 15% auto 20%;
+  margin: 35% auto 20%;
 }
 
 .about-me-main {
@@ -410,7 +410,7 @@
 .typewriter-portfolio-stuff {
   width: 100%;
   font-size: 1.5rem;
-  margin: 15% auto 20%;
+  margin: 35% auto 20%;
 }
 
 .my-portfolio {
@@ -520,7 +520,7 @@
 .typewriter-contact-stuff {
   width: 100%;
   font-size: 1.5rem;
-  margin: 15% auto 20%;
+  margin: 35% auto 20%;
 }
 
 .my-contact {
