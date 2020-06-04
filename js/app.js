@@ -10,10 +10,8 @@ $(window).on("load", function () {
 })
 
 hamburger.addEventListener("click", () => {
-  console.log("ajibola")
   navigation.classList.toggle("animate")
 })
 hamburgerLg.addEventListener("click", () => {
-  console.log("ajibola")
   navigation.classList.toggle("animate")
 })
