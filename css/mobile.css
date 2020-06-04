@@ -19,11 +19,11 @@
 }
 
 /* increase spacing between social media icons */
-.social-media a {
+/* .social-media a {
   margin: 60% 0;
   padding: 2%;
   transition: all 500ms ease-in-out;
-}
+} */
 /* remove email and phone number */
 .secondary-bottom p {
   display: none;
@@ -39,9 +39,9 @@
 /* nav hamburger */
 .navbar-ish {
   display: block;
-  /* z-index: 1000; */
   width: 30px;
-  /* border: 1px solid black; */
+  z-index: 4;
+  /* position: relative; */
 }
 
 .nav-logo {
@@ -70,11 +70,10 @@
   align-items: center;
   position: fixed;
   top: 0;
-  /* left: 0%; */
   right: 0;
-  /* z-index: 5; */
   transition: all 0.5s;
   transform: scale(0) rotate(-180deg);
+  /* z-index: 3; */
 }
 .my-nav-stopgap li {
   list-style-type: none;
@@ -121,7 +120,7 @@
   display: none;
 }
 .tertiary {
-  display: none;
+  display: none !important;
 }
 
 /* style just primary bro */
@@ -133,10 +132,12 @@
 
 .mobile-navbar {
   width: 100%;
-
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   background-color: var(--primary-bg-color);
+  z-index: 2;
 }
 
 .mobile-home-elements {
@@ -443,7 +444,6 @@
 
 /* targets the project title div. preceding class name helps with readablility and specificity */
 .grid-portfolio-el .project-title-div {
-  z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;

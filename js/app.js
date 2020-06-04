@@ -1,4 +1,5 @@
 const hamburger = document.querySelector(".navbar-ish")
+const hamburgerLg = document.querySelector(".navbar-ish-lg")
 const navigation = document.querySelector(".my-nav-stopgap")
 const myNav = document.querySelector(".my-nav")
 // const square = document.getElementById("square1")
@@ -9,6 +10,10 @@ $(window).on("load", function () {
 })
 
 hamburger.addEventListener("click", () => {
+  console.log("ajibola")
+  navigation.classList.toggle("animate")
+})
+hamburgerLg.addEventListener("click", () => {
   console.log("ajibola")
   navigation.classList.toggle("animate")
 })
