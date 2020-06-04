@@ -1,0 +1,135 @@
+/* remove content of primary shit */
+
+.main-image,
+.primary-container {
+  display: none;
+}
+
+/* adjust hamburger nav */
+
+.menu-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-btn__burger {
+  width: 15px;
+  height: 3px;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  width: 20px;
+  height: 3px;
+}
+
+/* increase spacing between social media icons */
+.social-media a {
+  margin: 60% 0;
+  padding: 2%;
+  transition: all 500ms ease-in-out;
+}
+/* remove email and phone number */
+.secondary-bottom p {
+  display: none;
+}
+
+/* reduce nav-logo dimensions */
+.nav-logo img,
+.nav-logo a {
+  width: 60px;
+  height: 48px;
+}
+
+/* change primary vw to 100% */
+.primary {
+  width: 100vw;
+  background-color: var(--primary-bg-color);
+  display: block;
+  /* justify-content: center;
+  align-items: center; */
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.secondary {
+  display: none;
+}
+.tertiary {
+  display: none;
+}
+
+/* style just primary bro */
+
+.mobile-html-container {
+  display: block;
+  width: 100%;
+
+  text-align: center;
+}
+
+.mobile-navbar {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+.mobile-home-elements {
+  margin: 10% auto;
+  padding: 5%;
+}
+
+.typewriter-stuff {
+  font-size: 1rem;
+  margin-bottom: 15%;
+}
+
+.link-button {
+  padding: 2.5% 3%;
+  font-size: 1rem;
+  margin: 5% auto;
+}
+
+.main-image-div-mobile {
+  margin-bottom: 10%;
+}
+
+.main-image-mobile {
+  /* Note : 100px= 7.3206vw for a 1366 x 768 screen*/
+  /* absolute height/width in pixels */
+  /* height: 450px;
+  width: 680px;
+  margin-left: -350px; */
+
+  /* relative height/width in vw */
+  /* height: 32.94vw;
+  width: 49.78vw;
+  margin-left: -25.62vw; */
+  /* 
+  height: 32.94vw;
+  width: 45vw; */
+  /* margin-left: -22.5vw; */
+
+  height: 300px;
+  width: 300px;
+  transform: rotate(90deg);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  animation: spinSlow 5s ease-in-out infinite alternate forwards;
+  filter: grayscale(80%);
+  /* transform: rotate(90deg); */
+}
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(87deg);
+  }
+
+  100% {
+    transform: rotate(93deg);
+  }
+}

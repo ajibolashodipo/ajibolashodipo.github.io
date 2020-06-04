@@ -796,3 +796,7 @@ nav a:hover {
 .email-mailto-link {
   color: var(--quartenary-bg-color);
 }
+
+.mobile-html-container {
+  display: none;
+}
