@@ -283,6 +283,10 @@ html {
   list-style-type: none;
 }
 
+.mobile-navbar {
+  display: none;
+}
+
 /* ensure no space between between stopgap and the first dot */
 .my-nav-stopgap.animate {
   transform: scale(1) rotate(0);

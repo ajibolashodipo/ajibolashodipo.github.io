@@ -76,7 +76,9 @@
   transition: all 0.5s;
   transform: scale(0) rotate(-180deg);
 }
-
+.my-nav-stopgap li {
+  list-style-type: none;
+}
 
 .menu-btn {
   position: relative;
@@ -225,7 +227,7 @@
 .typewriter-about-stuff {
   width: 100%;
   font-size: 1.5rem;
-  margin-bottom: 10%;
+  margin: 15% auto 20%;
 }
 
 .about-me-main {
@@ -407,6 +409,7 @@
 .typewriter-portfolio-stuff {
   width: 100%;
   font-size: 1.5rem;
+  margin: 15% auto 20%;
 }
 
 .my-portfolio {
@@ -517,6 +520,7 @@
 .typewriter-contact-stuff {
   width: 100%;
   font-size: 1.5rem;
+  margin: 15% auto 20%;
 }
 
 .my-contact {
