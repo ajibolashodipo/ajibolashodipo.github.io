@@ -279,6 +279,10 @@ html {
   list-style-type: none;
 }
 
+.my-nav-social-media {
+  display: none;
+}
+
 .mobile-navbar {
   display: none;
 }

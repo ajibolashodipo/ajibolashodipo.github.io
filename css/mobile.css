@@ -78,6 +78,15 @@
 .my-nav-stopgap li {
   list-style-type: none;
 }
+.my-nav-social-media {
+  display: flex;
+  justify-content: space-between;
+}
+.my-nav-social-media a {
+  /* legit have no idea how this works */
+  margin: 0 -150%;
+  font-size: 1.3rem;
+}
 
 .menu-btn {
   position: relative;
