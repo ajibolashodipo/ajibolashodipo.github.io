@@ -472,7 +472,6 @@ nav a:hover {
 }
 .core-skills-text {
   margin: 0px auto;
-  /* border: 1px solid red; */
   width: 80%;
   padding: 7.5% 5%;
 }
@@ -491,7 +490,6 @@ nav a:hover {
 .about-interests {
   background-color: var(--tertiary-bg-color);
   color: black;
-  /* height: 100%; */
 }
 .about-interests h1 {
   margin-bottom: 2.5%;
@@ -503,7 +501,6 @@ nav a:hover {
 }
 .about-interests-container {
   margin: 0% auto;
-  /* border: 1px solid red; */
   width: 80%;
 
   padding: 7.5% 5%;
@@ -513,7 +510,6 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(6, 50px);
-  /* padding: 2.5%; */
   gap: 10px;
   height: 100%;
 }
@@ -564,7 +560,6 @@ nav a:hover {
 .about-experience {
   background-color: var(--tertiary-bg-color);
   color: black;
-  /* min-height: 100vh; */
   color: var(--quartenary-bg-color);
 }
 .about-experience h1 {
@@ -574,7 +569,6 @@ nav a:hover {
 }
 .experience-container {
   margin: 0% auto;
-  /* border: 1px solid red; */
   width: 80%;
   padding: 7.5% 5%;
 }
