@@ -372,7 +372,7 @@ nav a:hover {
   height: 32.94vw;
   width: 45vw;
   margin-left: -22.5vw;
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   animation: spinSlow 2s ease-in-out infinite alternate forwards;
   filter: grayscale(80%);
 }
