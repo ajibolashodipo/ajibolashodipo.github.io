@@ -25,7 +25,6 @@
   display: block;
   width: 30px;
   z-index: 4;
-  /* position: relative; */
 }
 
 .nav-logo {
@@ -74,14 +73,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 80px;
-  height: 80px; */
   width: 100%;
-  height: 100%;
+  height: 90%;
   cursor: pointer;
   /* border: 1px solid red; */
   transition: all 0.5s ease-in-out;
-  /* border: 3px solid #fff; */
 }
 .menu-btn__burger-mobile {
   width: 22px;
