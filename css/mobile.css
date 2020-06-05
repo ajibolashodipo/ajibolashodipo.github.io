@@ -215,8 +215,8 @@
   justify-content: space-evenly;
 }
 .mobile-social-media .social-icons {
-  color: var(--secondary-bg-color);
-  font-size: 1.3rem;
+  color: var(--cinq-bg-color);
+  font-size: 1.4rem;
 }
 
 /* about page------------------------- */

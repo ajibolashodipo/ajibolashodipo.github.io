@@ -4,10 +4,10 @@
   --tertiary-bg-color: #e4ede6; */
 
   --primary-bg-color: #fff;
-  /* --primary-bg-color: #e3e8e5; */
   --secondary-bg-color: #278ea5;
   --tertiary-bg-color: #1f4287;
   --quartenary-bg-color: #c7c9c9;
+  --cinq-bg-color: black;
 }
 
 * {
