@@ -81,7 +81,7 @@
 }
 .menu-btn__burger-mobile {
   width: 22px;
-  height: 3px;
+  height: 2px;
   background: var(--tertiary-bg-color);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
@@ -97,7 +97,7 @@
   content: "";
   position: absolute;
   width: 25px;
-  height: 3px;
+  height: 2px;
   background: var(--tertiary-bg-color);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
