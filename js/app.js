@@ -13,6 +13,5 @@ hamburger.addEventListener("click", () => {
   navigation.classList.toggle("animate")
 })
 hamburgerLg.addEventListener("click", () => {
-  console.log("ajibb")
   navigation.classList.toggle("animate")
 })

@@ -1,0 +1,77 @@
+.secondary-bottom {
+  display: none;
+}
+
+.primary {
+  width: 75%;
+}
+.primary-about {
+  width: 75%;
+  left: 15%;
+}
+.primary-portfolio {
+  width: 75%;
+  left: 15%;
+}
+.primary-contact {
+  width: 75%;
+  left: 15%;
+}
+.secondary {
+  width: 15%;
+}
+.tertiary {
+  width: 10%;
+}
+
+.my-nav-stopgap {
+  width: 75vw;
+  right: 10vw;
+}
+
+.typewriter-stuff {
+  font-size: 1.3rem;
+}
+.typewriter-about-stuff {
+  font-size: 1.3rem;
+  margin-top: 35%;
+}
+.typewriter-portfolio-stuff {
+  font-size: 1.3rem;
+  margin-top: 35%;
+}
+.typewriter-contact-stuff {
+  font-size: 1.3rem;
+  margin-top: 35%;
+}
+
+.short-introduction {
+  font-size: 1.2rem;
+  padding: 5%;
+}
+
+.link-button {
+  width: 70%;
+}
+
+.social-media a {
+  margin: 50% 0;
+  padding: 2%;
+}
+
+.menu-btn__burger {
+  width: 25px;
+  height: 3px;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+}
+
+/* .my-nav-stopgap {
+  width: 70vw;
+} */
