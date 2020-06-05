@@ -10,10 +10,14 @@
 }
 
 /* reduce nav-logo dimensions */
-.nav-logo img,
-.nav-logo a {
+
+/* .nav-logo a {
   width: 60px;
-  height: 48px;
+  height: 300px;
+} */
+.nav-logo img {
+  width: 70px;
+  height: 50px;
 }
 
 /* nav hamburger */
@@ -26,13 +30,7 @@
 
 .nav-logo {
   margin-left: 5%;
-  margin-top: 2%;
-}
-
-.nav-logo img,
-.nav-logo a {
-  width: 90px;
-  height: 70px;
+  margin-top: 1%;
 }
 
 /* nav animation slide in */
@@ -269,7 +267,7 @@
 .about-me-main p {
   margin-bottom: 2%;
   text-align: justify;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 2rem;
 }
 
@@ -299,6 +297,7 @@
   margin-bottom: 4.5%;
   text-align: justify;
   line-height: 2rem;
+  font-size: 0.9rem;
 }
 .my-experiences h5 {
   margin-bottom: 1%;
@@ -336,7 +335,7 @@
 }
 
 .skills-container p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 15%;
 }
 
@@ -410,8 +409,8 @@
 .my-awards p {
   margin-bottom: 5%;
   text-align: justify;
-  line-height: 2rem;
-  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
 }
 .my-awards h5 {
   margin-bottom: 1%;
