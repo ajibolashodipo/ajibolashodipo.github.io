@@ -296,8 +296,8 @@ nav a {
 .my-experiences p {
   margin-bottom: 7.5%;
   text-align: justify;
-  line-height: 1.5rem;
-  font-size: 0.8rem;
+  line-height: 2rem;
+  font-size: 0.9rem;
 }
 .my-experiences h5 {
   margin-bottom: 1%;
@@ -407,10 +407,10 @@ nav a {
 }
 
 .my-awards p {
-  margin-bottom: 5%;
+  margin-bottom: 7.5%;
   text-align: justify;
-  line-height: 1.5rem;
-  font-size: 0.8rem;
+  line-height: 2rem;
+  font-size: 0.9rem;
 }
 .my-awards h5 {
   margin-bottom: 1%;
