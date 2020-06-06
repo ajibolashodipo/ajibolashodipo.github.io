@@ -65,6 +65,10 @@
   font-size: 1.3rem;
 }
 
+nav a {
+  font-weight: normal;
+}
+
 /* mobile navbar animation */
 
 /* start of hamburger */
