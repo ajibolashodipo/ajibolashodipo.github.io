@@ -453,7 +453,7 @@ nav a {
   margin-top: 7.5%;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(12, minmax(80px, auto));
+  grid-template-rows: repeat(15, minmax(80px, auto));
   gap: 10px;
 }
 
@@ -461,6 +461,7 @@ nav a {
 .grid-portfolio-el {
   position: relative;
   background-color: var(--tertiary-bg-color);
+  border-radius: 20px;
 }
 
 /* ensures that transition affects all the div elements */
@@ -490,7 +491,8 @@ nav a {
   width: 100%;
   filter: grayscale(60%);
   object-fit: cover;
-  object-position: 60% 60%;
+  object-position: 50% 80%;
+  border-radius: 20px;
 }
 /* transitions the project image to total greyscale and scales it up when the grid-portfolio-el div is hovered */
 .grid-portfolio-el:hover img {
@@ -500,32 +502,33 @@ nav a {
 }
 
 .grid-portfolio-el-one {
-  grid-column: 1/7;
+  grid-column: 1/11;
   grid-row: 1/4;
 }
 .grid-portfolio-el-two {
-  grid-column: 7/11;
-  grid-row: 1/4;
+  grid-column: 1/6;
+  grid-row: 4/7;
 }
 .grid-portfolio-el-three {
-  grid-column: 1/5;
-  grid-row: 4/7;
+  grid-column: 1/11;
+  grid-row: 13/16;
 }
+
 .grid-portfolio-el-four {
-  grid-column: 5/11;
-  grid-row: 4/7;
+  grid-column: 1/11;
+  grid-row: 7/10;
 }
 .grid-portfolio-el-five {
-  grid-column: 1/7;
-  grid-row: 7/10;
+  grid-column: 1/6;
+  grid-row: 10/13;
 }
 .grid-portfolio-el-six {
-  grid-column: 7/11;
-  grid-row: 7/10;
+  grid-column: 6/11;
+  grid-row: 10/13;
 }
 .grid-portfolio-el-seven {
-  grid-column: 1/11;
-  grid-row: 10/13;
+  grid-column: 6/11;
+  grid-row: 4/7;
 }
 
 /* contact me */
