@@ -492,7 +492,7 @@ nav a {
   filter: grayscale(60%);
   object-fit: cover;
   object-position: 50% 80%;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 /* transitions the project image to total greyscale and scales it up when the grid-portfolio-el div is hovered */
 .grid-portfolio-el:hover img {
