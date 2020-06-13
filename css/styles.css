@@ -665,7 +665,7 @@ nav a:hover {
 /* ensures that transition affects all the div elements */
 .grid-portfolio-el * {
   transition: all 300ms ease-in-out;
-  /* border-radius: 20px; */
+  border-radius: 20px;
 }
 
 /* targets the project title div. preceding class name helps with readablility and specificity */
@@ -693,6 +693,7 @@ nav a:hover {
   object-fit: cover;
   object-position: 60% 60%;
   border-radius: 20px;
+  display: block;
 }
 /* transitions the project image to total greyscale and scales it up when the grid-portfolio-el div is hovered */
 .grid-portfolio-el:hover img {
@@ -773,6 +774,10 @@ nav a:hover {
   grid-template-rows: repeat(2, minmax(250px, auto));
   gap: 10px;
   margin: auto;
+}
+
+.my-contact-grid a {
+  color: var(--quartenary-bg-color);
 }
 
 .my-contact-grid-el {
