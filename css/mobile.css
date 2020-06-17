@@ -209,6 +209,8 @@ nav a {
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   animation: spinSlow 1s ease-in-out infinite alternate forwards;
   filter: grayscale(80%);
+  object-fit: cover;
+  object-position: center;
   /* transform: rotate(90deg); */
 }
 
