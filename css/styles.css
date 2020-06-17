@@ -374,7 +374,7 @@ nav a:hover {
   margin-left: -22.5vw;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   animation: spinSlow 2s ease-in-out infinite alternate forwards;
-  /* filter: grayscale(80%); */
+  filter: grayscale(80%);
 }
 
 @keyframes spinSlow {
