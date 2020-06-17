@@ -496,7 +496,7 @@ nav a:hover {
 .about-interests h1 {
   margin-bottom: 2.5%;
   font-size: 4rem;
-  color: var(--secondary-bg-color);
+  color: var(--quartenary-bg-color);
 }
 .about-interests h4 {
   color: var(--quartenary-bg-color);
@@ -567,7 +567,7 @@ nav a:hover {
 .about-experience h1 {
   margin-bottom: 2.5%;
   font-size: 4rem;
-  color: var(--secondary-bg-color);
+  color: var(--quartenary-bg-color);
 }
 .experience-container {
   margin: 0% auto;
