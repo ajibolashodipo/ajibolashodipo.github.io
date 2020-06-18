@@ -367,7 +367,7 @@ nav a {
   margin: 15% 0;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(6, 50px);
+  grid-template-rows: repeat(9, 50px);
   /* padding: 2.5%; */
   gap: 10px;
   height: 100%;
@@ -385,6 +385,33 @@ nav a {
   align-items: center;
   justify-content: center;
   transition: all 500ms ease-in-out;
+}
+
+.interest-grid-el-one {
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+.interest-grid-el-two {
+  grid-column: 1/11;
+  grid-row: 7/10;
+}
+
+.interest-grid-el-three {
+  grid-column: 8/11;
+  grid-row: 1/4;
+}
+.interest-grid-el-four {
+  grid-column: 1/6;
+  grid-row: 4/7;
+}
+.interest-grid-el-five {
+  grid-column: 4/8;
+  grid-row: 1/4;
+}
+
+.interest-grid-el-six {
+  grid-column: 6/11;
+  grid-row: 4/7;
 }
 
 /* awardssssssss */
