@@ -320,8 +320,13 @@ nav a {
   font-size: 2.5rem;
   color: var(--primary-bg-color);
 }
-.core-skills h4 {
-  margin-bottom: 15%;
+
+.skills-container {
+  margin: 2% 0;
+}
+.core-skills h5 {
+  margin-bottom: 4%;
+  font-size: 1.2rem;
 }
 .core-skills-text {
   margin: 0px auto;
@@ -330,15 +335,12 @@ nav a {
   padding: 7.5% 5%;
 }
 
-.skills-container {
-  margin: 20% 0;
-  display: flex;
-  justify-content: space-between;
+.my-skills {
+  margin-bottom: 7%;
 }
 
-.skills-container p {
-  font-size: 0.9rem;
-  margin-bottom: 15%;
+.skills-container {
+  margin: 10% 0;
 }
 
 /* interests */
