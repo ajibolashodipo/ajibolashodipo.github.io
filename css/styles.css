@@ -479,14 +479,26 @@ nav a:hover {
 }
 
 .skills-container {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
+  margin: 5% 0;
 }
 
-.skills-container p {
-  font-size: 1.2rem;
-  margin-bottom: 15%;
+.my-skills {
+  margin-bottom: 5%;
+}
+
+.my-skills h5 {
+  margin-bottom: 1.5%;
+  font-size: 1.4rem;
+}
+
+.my-skills span {
+  background-color: var(--tertiary-bg-color);
+  padding: 1.5% 2%;
+  font-size: 0.9rem;
+  letter-spacing: 1.1px;
+  margin: 1% 1%;
+  display: inline-block;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
 }
 
 .about-interests {
